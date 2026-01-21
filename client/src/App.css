@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background: #f7faff;*/  /* very light blue background */
+  background: linear-gradient(135deg, #ffd6e8, #d6f0ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main form box */
+form {
+  width: 380px;
+  background: #fff0f6; /* light pink form background */
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+  border: 2px solid #cfe9ff; /* light blue border */
+}
+
+/* Title */
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #ff5ca8; /* pink heading */
+  font-weight: bold;
+}
+
+/* Inputs */
+input {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1.5px solid #9ad6ff; /* light blue border */
+  outline: none;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+/* Input focus */
+input:focus {
+  border-color: #ff86c4; /* pink focus */
+  box-shadow: 0px 0px 6px rgba(255, 134, 196, 0.6);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #8fd3ff; /* light blue button */
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  background: #ff84c2; /* pink on hover */
+  transform: scale(1.02);
+}
+
+/* Paragraph */
+p {
+  text-align: center;
+  margin-top: 15px;
+  color: #3b3b3b;
+}
+
+/* Links */
+a {
+  color: #4aa8ff; /* blue link */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff5ca8; /* pink hover */
+  text-decoration: underline;
+}
